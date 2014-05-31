@@ -1,0 +1,106 @@
+* {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+}
+::-webkit-scrollbar{
+	width:0;
+}
+::-fs-scrollbar{
+	width:0;
+}
+body {
+    font-size: 62.5%;
+}
+.center-bg-top {
+	background-image: url(../images/bg-top.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+    background-attachment: fixed;
+}
+input:focus {
+	outline:none;
+}
+.head-foot {
+	line-height: 29px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.logo {
+	border-right: 1px solid #b2b2b2;
+	border-bottom: 1px solid #191919;
+	background-color: #f0f0f0;
+}
+.search-text {
+	border: none;
+	color: #bfbfbf;
+	border-bottom: 1px solid #3d3d3d;
+	background-color: #fff;
+}
+.search-button {
+	border: none;
+	font-size: 1em;
+	background: url(../images/search.png) no-repeat;
+	background-position: 12px 7px;
+	border-bottom: 1px solid #3d3d3d;
+	background-color: #fff;
+}
+.user {
+	border-left: 1px solid #b2b2b2;
+	border-bottom: 1px solid #191919;
+	background-color: #f0f0f0;
+}
+.bgimg {
+	background: url(../images/wrapper-bg.png) no-repeat;
+	background-attachment: fixed;
+	background-position: 40px 30px;
+	background-color: #fff;
+}
+.container li {
+	text-align: center;
+    border-bottom: 1px solid #b5b5b5;
+}
+.container a {
+	font-size: 1.4em;
+    text-shadow: 1px 1px 1px #000;
+    color: rgba(255, 255, 255, 0.8);
+}
+.time-item {
+	border-right: 1px solid #171717;
+}
+.categorie-item {
+	border-left: 1px solid #171717;
+}
+.clicked {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid #8b8b8b;
+}
+.itemli {
+	border-bottom: 1px solid #3a3a3a;
+}
+.item a {
+	text-align: center;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 1px #000;
+	color: rgba(255, 255, 255, 0.8);
+}
+.information {
+    color: #bfbfbf; 
+    border-top: 1px solid #3d3d3d;
+}
+.about {
+	border-right: 1px solid #b2b2b2;
+	border-top: 1px solid #191919;
+}
+.lunar-times {
+	border-left: 1px solid #b2b2b2;
+	border-top: 1px solid #191919;
+}
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.font-color {
+    color: #fff;
+}
