@@ -1,0 +1,218 @@
+body{
+	background-image: url(../image/bj1.jpg);
+	background-repeat: repeat;
+}
+#top{
+	border:#666 solid 1px;
+	background-color: #F6F6F6;
+}
+.common{
+	font-size: 13px;
+}
+#lunardate{
+	text-align:right;
+}
+#navigation ul{
+    border-right: 1px #725B2E dashed;
+    display: block;
+    list-style-type: disc;
+}
+#navigation ul li {
+	font-size: 15px;
+}
+#navigation ul .mainlink{
+	font-weight: 700;
+    font-size: 16px;
+    color: #EC3337;
+}
+#navigation ul li a{
+	text-decoration: none;
+	color: #AB7538;
+	font-size: 15px;
+}
+#navigation ul li a:hover{
+	color: #EC3337;
+}
+#tl-title{
+	line-height: 30px;
+	text-align: center;
+	border-top: #d7b88a solid 1px;
+	border-bottom:#8c672f solid 1px;
+	background-color: #c59752;
+	color:#684d24;
+	letter-spacing: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+#tl-table{
+	border:#d3b17d solid 1px;
+	border-collapse:collapse; 
+	background-color: #eedeb0;
+}
+#tl-table td{
+	border:#d3b17d solid 1px;
+}
+#tl-table a{
+	display: block;
+}
+.discolor{
+	background-color: #E2C17c;
+}
+.dynasty-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ca6924;
+}
+.dynasty-time{
+    font: 200 12px/14px Georgia, "Courier New", Courier, monospace;
+}
+.various table{
+	border:#d3b17d solid 1px;
+	border-collapse:collapse; 
+	background-color: #eedeb0;
+}
+.various .various-title{
+	line-height: 30px;
+	text-align: center;
+	border-top: #d7b88a solid 1px;
+	border-bottom:#8c672f solid 1px;
+	background-color: #c59752;
+	color:#684d24;
+	letter-spacing: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.various td{
+	line-height: 27px;
+	border:#d3b17d solid 1px;
+}
+.various a{
+	display: block;
+	font-size: 15px;
+    font-weight: 700;
+    color: #ca6924;
+}
+.logicians{
+	border:#666 solid 1px;
+}
+.logicians .logicians-title{
+	text-align: center;
+	line-height: 30px;
+	border-bottom: #666 dashed 1px;
+}
+.content1 .content1-title{
+	line-height: 32px;
+	text-align: center;
+	background-color: #002f40;
+}
+.content1 .content1-title a{
+    color: #ebbe49 ;
+    text-decoration: none;
+	letter-spacing: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.content11{
+	border-right: #dabc8f solid 1px;
+}
+.content11 .content11-title{
+	line-height: 27px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 3px;
+	background-color: #E2C17c;
+	color:#6c552d;
+	border-top:#f3e7cb 1px solid;
+	border-bottom: #6c552d 1px solid;
+	border-right: #ebd6a3 solid 1px;
+}
+.content11 .matter{
+	background-color: #eedeb0;
+}
+.content11 .matter ul li{
+	margin-left: 5px;
+	padding-bottom: 1px;
+	vertical-align: bottom;
+}
+.content11 .matter ul li a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.content11 .matter ul li a:hover{
+	color: #EC3337;
+}
+#search-title{
+	line-height: 29px;
+	background-image: url(../image/sidetitle.png);
+}
+#search-title h3{
+	letter-spacing: 2px;
+	font-size: 15px;
+	text-indent: 12px;
+	color:#6f650f;
+}
+#c-search{
+	background-image:url(../image/search.png);
+}
+#searchsubmit{
+	font-size: 12px;
+}
+.side1 .side-title{
+	line-height: 29px;
+	background-image: url(../image/sidetitle.png);
+}
+.side1 .side-title h3{
+	letter-spacing: 2px;
+	font-size: 15px;
+	text-indent: 12px;
+	color:#6f650f;
+}
+.side1 .c-side{
+	background-image: url(../image/sidecontent.png);
+}
+.side1 .c-side ul li a{
+	color:#6f650f;
+	text-decoration: none;
+	font-size: 14px;
+}
+.side1 .c-side ul li a:hover{
+	color:red;
+}
+.list-content1{
+	border:#666 solid 1px;
+}
+.list-content2{
+	border:#666 solid 1px;
+}
+.list-title{
+    border-bottom: #666 dashed 1px;
+    border-right: #666 dashed 1px;
+}
+.list-content3{
+	border:#666 solid 1px;
+}
+#friendlink{
+	border:#EDCD8B solid 1px;
+	border-bottom: #EDCD8B dashed 1px;
+}
+#friendlink h4{
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #725B2E;
+}
+#friendlink a{
+    font-size: 14px;
+}
+#friendlink a:hover{
+	text-decoration: none;
+    color:red;
+}
+#footer{
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	color: #725B2E;
+	border:#EDCD8B solid 1px;
+	border-top:0;
+}
+

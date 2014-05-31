@@ -1,0 +1,1040 @@
+<!DOCTYPE html> 
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index_theme.css">
+<link rel="stylesheet" type="text/css" href="css/index_layout.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/image-changes.css" >
+<title>首页</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/focus.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+    var x=10;
+    var y=20;
+    $("a.tooltip").mouseover(function(e){
+      this.myTitle="hghgghdfhdfhgdgfhdghdghjkghgh";
+      var tooltip="<div id='tooltip'>"+this.myTitle+"</div>";
+      $("body").append(tooltip);
+     $("#tooltip").css({
+        "top":(e.pageY+y)+"px",
+        "left":(e.pageX+x)+"px",
+        "border":"1px red solid",
+        "width":"100px",
+        "height":"100px"
+      }).show("slow");
+    }).mouseout(function(){
+      //this.title=this.myTitle;
+      $("#tooltip").remove();
+    }).mousemove(function(e){
+      $("#tooltip").css({
+        "top":(e.pageY+y)+"px",
+        "left":(e.pageX+x)+"px"
+      });
+    });
+  })
+</script>
+</head>
+
+<body>
+<div id="top">
+  <div id="toper">
+    <div id="maxim" class="common">国学箴言：在顺境中修行，永远不能成佛。</div>
+    <div id="collect" class="common"><a href="#">加入收藏</a> <a href="#">设为首页</a></div>
+    <div id="loginbar" class="common"><a href="#">登录</a> <a href="#">注册</a></div>
+    <div id="lunardate" class="common">农历：八月初七 干支：癸巳年 辛酉月 庚辰日</div>
+  </div>
+</div>
+<div id="header">
+   <div id="logo"><img src="image/logo.png" width="110px" height="55px"></div>
+   <div id="navigation">
+     <ul>
+      <li><a class="mainlink" href="#">文学</a></li>
+      <li><a href="#">韵文</a></li>
+      <li><a href="#">散杂</a></li>
+      <li><a href="#">文论</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">易学</a></li>
+      <li><a href="#">典籍</a></li>
+      <li><a href="#">参究</a></li>
+      <li><a href="#">用易</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">道学</a></li>
+      <li><a href="#">道藏</a></li>
+      <li><a href="#">阐释</a></li>
+      <li><a href="#">功法</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">武学</a></li>
+      <li><a href="#">秘籍</a></li>
+      <li><a href="#">心得</a></li>
+      <li><a href="#">源流</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">艺学</a></li>
+      <li><a href="#">音律</a></li>
+      <li><a href="#">博弈</a></li>
+      <li><a href="#">书画</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">史学</a></li>
+      <li><a href="#">正史</a></li>
+      <li><a href="#">稗史</a></li>
+      <li><a href="#">史论</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">儒学</a></li>
+      <li><a href="#">经典</a></li>
+      <li><a href="#">性理</a></li>
+      <li><a href="#">新儒</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">佛学</a></li>
+      <li><a href="#">藏经</a></li>
+      <li><a href="#">理论</a></li>
+      <li><a href="#">实修</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">医学</a></li>
+      <li><a href="#">医理</a></li>
+      <li><a href="#">药材</a></li>
+      <li><a href="#">养生</a></li>
+     </ul>
+     <ul>
+      <li><a class="mainlink" href="#">杂学</a></li>
+      <li><a href="#">兵家</a></li>
+      <li><a href="#">墨家</a></li>
+      <li><a href="#">法家</a></li>
+     </ul>
+   </div>
+</div>
+<div id="container1">
+   <div id="navi">
+      <div id="timeline">
+        <div id="tl-title">历史索引</div>
+        <table id="tl-table"  border="1" style="width:100%; table-layout:fixed;width:207px;">
+          <tbody>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a  class="tooltip" href="#">
+                  <span class="dynasty-name">传说时代</span>
+                  <span class="dynasty-time">（三皇五帝）</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">夏朝</span>
+                  <span class="dynasty-time"> 前21世纪-前16世纪</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">商朝</span>
+                  <span class="dynasty-time"> 前16世纪-前11世纪</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3" width="70px;">
+                <a href="#">
+                  <span class="dynasty-name">周朝</span>
+                  <span class="dynasty-time"> 前11世纪-前256</span>
+                </a>
+              </td>
+              <td colspan="3">
+                <a href="#">
+                  <span class="dynasty-name">西周</span>
+                  <span class="dynasty-time"> 前11世纪-前771</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <a href="#">
+                  <span class="dynasty-name">东周</span>
+                  <span class="dynasty-time"> 前770-前256</span>
+                </a>
+              </td>
+              <td colspan="2">
+                <a href="#">
+                  <span class="dynasty-name">春秋</span>
+                  <span class="dynasty-time"> 前770-前476</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <a href="#">
+                  <span class="dynasty-name">战国</span>
+                  <span class="dynasty-time"> 前476-前221</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">秦朝</span>
+                  <span class="dynasty-time"> 前221-前207</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" rowspan="3" >
+                <a href="#">
+                  <span class="dynasty-name">汉朝</span>
+                  <span class="dynasty-time"> 前202-<br>220</span>
+                </a>
+              </td>
+              <td class="discolor" colspan="3" >
+                <a href="#">
+                  <span class="dynasty-name">西汉</span>
+                  <span class="dynasty-time"> 前202-9</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" colspan="3" >
+                <a href="#">
+                  <span class="dynasty-name">新朝</span>
+                  <span class="dynasty-time"> 9-23</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" colspan="3" >
+              <a href="#">
+                <span class="dynasty-name">东汉</span>
+                <span class="dynasty-time"> 25-220</span>
+              </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <span class="dynasty-name">三国</span>
+                  <span class="dynasty-time"> <br>220-<br>280</span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <span class="dynasty-name">曹魏</span>
+                  <span class="dynasty-time"> <br>220-<br>266</span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <span class="dynasty-name">蜀汉</span>
+                  <span class="dynasty-time"> <br>221-<br>263</span>
+                </a>
+              </td>
+              <td>
+                <a href="#">
+                  <span class="dynasty-name">东吴</span>
+                  <span class="dynasty-time"> <br>229-<br>280</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <a href="#">
+                  <span class="dynasty-name">晋朝</span>
+                  <span class="dynasty-time"> 266-<br>420</span>
+                </a>
+              </td>
+              <td colspan="3">
+                <a href="#">
+                  <span class="dynasty-name">西晋</span>
+                  <span class="dynasty-time"> 266-316</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <span class="dynasty-name">东晋</span>
+                  <span class="dynasty-time"> 317-<br>420</span>
+                </a>
+              </td>
+              <td colspan="2">
+                <a href="#">
+                  <span class="dynasty-name">十六国</span>
+                  <span class="dynasty-time"> 304-439</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" rowspan="4" >
+                <a href="#">
+                  <span class="dynasty-name">南北朝</span>
+                  <span class="dynasty-time"> 420-<br>589</span>
+                </a>
+              </td>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">宋</span>
+                  <span class="dynasty-time"> 420-<br>479</span>
+                </a>
+              </td>
+              <td class="discolor" rowspan="2" colspan="2" >
+                <a href="#">
+                  <span class="dynasty-name">北魏</span>
+                  <span class="dynasty-time"> 386-534</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">齐</span>
+                  <span class="dynasty-time"> 479-<br>502</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor">
+               <a href="#">
+                <span class="dynasty-name">梁</span>
+                <span class="dynasty-time"> 502-<br>557</span>
+              </a>
+              </td>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">西魏</span>
+                  <span class="dynasty-time"> 535-<br>557</span>
+                </a>
+              </td>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">东魏</span>
+                  <span class="dynasty-time"> 534-<br>550</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">陈</span>
+                  <span class="dynasty-time"> 557-<br>589</span>
+                </a>
+              </td>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">北周</span>
+                  <span class="dynasty-time"> 557-<br>581</span>
+                </a>
+              </td>
+              <td class="discolor">
+                <a href="#">
+                  <span class="dynasty-name">北齐</span>
+                  <span class="dynasty-time"> 550-<br>577</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">隋朝</span>
+                  <span class="dynasty-time"> 581-619</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">唐朝</span>
+                  <span class="dynasty-time"> 618-907</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" class="tl-tr" colspan="4" >
+                <a href="#">
+                  <span class="dynasty-name">五代十国</span>
+                  <span class="dynasty-time"> 907-979</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <a href="#">
+                  <span class="dynasty-name">宋朝</span>
+                  <span class="dynasty-time"> 960-<br>1279</span>
+                </a>
+              </td>
+              <td colspan="3">
+                <a href="#">
+                  <span class="dynasty-name">北宋</span>
+                  <span class="dynasty-time"> 960-1127</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <a href="#">
+                  <span class="dynasty-name">南宋</span>
+                  <span class="dynasty-time"> 1127-1279</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">元朝</span>
+                  <span class="dynasty-time"> 1271-1368</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" class="tl-tr" colspan="4" >
+                <a href="#">
+                  <span class="dynasty-name">明朝</span>
+                  <span class="dynasty-time"> 1368-1644</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" class="tl-tr" colspan="4" >
+                <a href="#">
+                  <span class="dynasty-name">清朝</span>
+                  <span class="dynasty-time"> 1636-1912</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tl-tr" colspan="4">
+                <a href="#">
+                  <span class="dynasty-name">中华民国</span>
+                  <span class="dynasty-time"> 1912-1949</span>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="discolor" colspan="4" >
+                <a href="#">
+                  <span class="dynasty-name">中华人民共和国</span>
+                  <span class="dynasty-time"> 1949至今</span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+      <div class="various">
+        <div class="various-title">诸子百家</div>
+        <table border="1" style="width:100%; table-layout:fixed;width:207px;">
+          <tbody>
+            <tr><td><a href="#">儒家</a></td></tr>
+            <tr><td class="discolor"><a href="#">道家</a></td></tr>
+            <tr><td><a href="#">墨家</a></td></tr>
+            <tr><td class="discolor"><a href="#">法家</a></td></tr>
+            <tr><td><a href="#">兵家</a></td></tr>
+            <tr><td class="discolor"><a href="#">史家</a></td></tr>
+            <tr><td><a href="#">医家</a></td></tr>
+            <tr><td class="discolor"><a href="#">纵横家</a></td></tr>
+            <tr><td><a href="#">杂家</a></td></tr>
+            <tr><td class="discolor"><a href="#">名家</a></td></tr>
+            <tr><td><a href="#">阴阳家</a></td></tr>
+            <tr><td class="discolor"><a href="#">小说家</a></td></tr>
+            <tr><td><a href="#">农家</a></td></tr>
+            <tr><td class="discolor"><a href="#">方技家</a></td></tr>
+            <tr><td><a href="#">理学</a></td></tr>
+            <tr><td class="discolor"><a href="#">心学</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="logicians"><div class="logicians-title">名家园地</div></div>
+   </div>
+   <div id="content">
+      <div id="slide">
+        <div id="tcontent">
+  <div id="main">
+    <div class="sub-box">
+      <div id="p-select" class="sub-nav">
+        <div class="sub-no" id="bd1lfsj">
+          <ul>
+            <li class="show">1</li><li class="">2</li><li class="">3</li><li class="">4</li><li class="">5</li>
+          </ul>
+        </div>
+      </div>
+      <div id="bd1lfimg">
+        <div>
+          <dl class="show"></dl>
+          <dl class="">
+            <dt><a href="#" title="" target="_blank"><img src="image/t1.jpg"></a></dt>
+            <dd>
+              <h2><a href="#" target="_blank">2011城市主题公园亲子游</a></h2>
+              <tt><a href="#" target="_blank">又是春游踏青的季节，各大主题乐园都为大朋友、小朋友们准备了丰…</a></tt>
+            </dd>
+          </dl>
+          <dl class="">
+            <dt><a href="#" title="" target="_blank"><img src="image/t2.jpg"></a></dt>
+            <dd>
+              <h2><a href="#" target="_blank">潜入城市周边清幽之地</a></h2>
+              <tt><a href="#" target="_blank">北京、上海、广州、成都周边，总有些人少清幽的地方，等着你去探…</a></tt>
+            </dd>
+          </dl>
+          <dl class="">
+            <dt><a href="#" title="" target="_blank"><img src="image/t3.jpg"></a></dt>
+            <dd>
+              <h2><a href="#" target="_blank">盘点中国最美雪山</a></h2>
+              <tt><a href="#" target="_blank">盘点中国最美雪山，从云南的梅里到西藏的珠穆朗玛，带你领略中国…</a></tt>
+            </dd>
+          </dl>
+          <dl class="">
+            <dt><a href="#" title="" target="_blank"><img src="image/t4.jpg"></a></dt>
+            <dd>
+              <h2><a href="#" target="_blank">2011西安世园会攻略</a></h2>
+              <tt><a href="#" target="_blank">提供最全面西安世园会资讯、西安世园会参观指南、西安世园会旅游…</a></tt>
+            </dd>
+          </dl>
+          <dl class="">
+            <dt><a href="#" title="" target="_blank"><img src="image/t5.jpg"></a></dt>
+            <dd>
+              <h2><a href="#" target="_blank">五月乐享懒人天堂塞班岛</a></h2>
+              <tt><a href="#" target="_blank">塞班岛是北马里亚纳群岛的首府，由于近邻赤道，塞班岛一年四季如…</a></tt>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">movec();</script>
+  </div>
+</div>
+</div>
+    <div id="out-content">
+      <div class="content1">
+        <div class="content1-title"><a href="#">文海清韵</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#">《宋词三百首》</a></li>
+              <li><a href="#">《陶渊明集》</a></li>
+              <li><a href="#">《唐诗三百首》</a></li>
+              <li><a href="#">《楚辞》</a></li>
+              <li><a href="#">《诗经》</a></li>
+              <li><a href="#">《倩女离魂》</a></li>
+              <li><a href="#">《倩女离魂》</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#">《太平广记》</a></li>
+              <li><a href="#">《容斋随笔》</a></li>
+              <li><a href="#">《父亲的树》</a></li>
+              <li><a href="#">《古文观止》</a></li>
+              <li><a href="#">《禀父书》</a></li>
+              <li><a href="#">《与妻书》</a></li>
+              <li><a href="#">《倩女离魂》</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#">《中国文学史》</a></li>
+              <li><a href="#">《清代学术概论》</a></li>
+              <li><a href="#"> 趣谈二百年前的...</a></li>
+              <li><a href="#"> 也谈《何典》</a></li>
+              <li><a href="#">《何典》一部绝妙的...</a></li>
+              <li><a href="#"> 奇书难得话《何典》</a></li>
+              <li><a href="#">《倩女离魂》</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">史鉴兴替</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">儒者仁风</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">易冠群经</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">道法自然</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">佛门不二</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">医德济世</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">武行天下</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="content1-title"><a href="#">杂兼并蓄</a></div>
+        <div class="content11">
+          <div class="content11-title">文言</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11">
+          <div class="content11-title">白话</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content11" style="border:none;">
+          <div class="content11-title">评论</div>
+          <div class="matter">
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div id="side">
+      <div id="search">
+        <div id="search-title"><h3>本站搜索</h3></div>
+        <div id="c-search">
+          <form method="post" action="#" name="formsearch"> 
+            <input type="text" name="searchwords" id="searchwords" value="在这里搜索..."/ > 
+            <button type="submit" id="searchsubmit">搜索</button>
+          </form>
+        </div>
+      </div>
+      <div class="side1">
+        <div class="side-title"><h3>热门文章</h3></div>
+        <div class="c-side">
+          <ul>
+            <li><a href="#"> 《初刻拍案惊奇》</a></li>
+            <li><a href="#"> 《曾国藩》</a></li>
+            <li><a href="#"> &nbsp;围棋诗词歌曲</a></li>
+            <li><a href="#"> 《酌古论》</a></li>
+            <li><a href="#"> 《楞严大义今释》</a></li>
+            <li><a href="#"> 《康熙大帝》</a></li>
+            <li><a href="#"> 《论语别裁》</a></li>
+            <li><a href="#"> 《中国文学史》</a></li>
+            <li><a href="#"> 《诗经》</a></li>
+            <li><a href="#"> 《红楼梦》</a></li>
+            <li><a href="#"> 《丰乳肥臀》</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="side1">
+        <div class="side-title"><h3>百家推荐</h3></div>
+        <div class="c-side">
+          <ul>
+            <li><a href="#"> 《笑傲江湖》</a></li>
+            <li><a href="#"> 《飞狐外传》</a></li>
+            <li><a href="#"> &nbsp;杨振宁谈“物理学与佛教”</a></li>
+            <li><a href="#"> 《圆觉经略说》</a></li>
+            <li><a href="#"> 《药师经的济世观》</a></li>
+            <li><a href="#"> 《一个学佛者的基本信念》</a></li>
+            <li><a href="#"> 《中国佛教发展史略》</a></li>
+            <li><a href="#"> 《禅海蠡测》</a></li>
+            <li><a href="#"> 《百字铭》</a></li>
+            <li><a href="#"> 《如何修证佛法》</a></li>
+            <li><a href="#"> 《楞伽大义今释》</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="side1">
+        <div class="side-title"><h3>百家藏经</h3></div>
+        <div class="c-side">
+          <ul>
+            <li><a href="#"> 《金刚经》</a></li>
+            <li><a href="#"> 《荀子》</a></li>
+            <li><a href="#"> 《道德经》</a></li>
+            <li><a href="#"> 《黄帝内经》</a></li>
+            <li><a href="#"> 《悟真篇》</a></li>
+            <li><a href="#"> 《百字铭》</a></li>
+            <li><a href="#"> 《佛说数经》</a></li>
+            <li><a href="#"> 《佛说人仙经》</a></li>
+            <li><a href="#"> 《佛说伏淫经》</a></li>
+            <li><a href="#"> 《拔本塞源论》</a></li>
+            <li><a href="#"> 《红楼梦》</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="side1">
+        <div class="side-title"><h3>养生之道</h3></div>
+        <div class="c-side">
+          <ul>
+            <li><a href="#"> 叶法善宫廷道教音乐与养生</a></li>
+            <li><a href="#"> 山水田园与古代文人养生</a></li>
+            <li><a href="#"> 道家天人合德生态自然的养...</a></li>
+            <li><a href="#"> “适然养生”——中国养生...</a></li>
+            <li><a href="#"> 儒释道养生思想与现代生态...</a></li>
+            <li><a href="#"> 中国绘画与道教养生</a></li>
+            <li><a href="#">《百字铭》</a></li>
+            <li><a href="#"> 古琴养生观与乐医同构思维</a></li>
+            <li><a href="#"> 古琴艺术与中医养生</a></li>
+            <li><a href="#"> 五音琴曲与养生</a></li>
+            <li><a href="#"> 古琴的修身与养生</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="side1">
+        <div class="side-title"><h3>原创园地</h3></div>
+        <div class="c-side"></div>
+      </div>
+   </div>
+</div>
+<div id="container2">
+  <div id="container21">
+    <div class="list-content1"><div class="list-title">琴</div></div>
+    <div class="list-content1"><div class="list-title">棋</div></div>
+    <div class="list-content1"><div class="list-title">书</div></div>
+    <div class="list-content2"><div class="list-title">画</div></div>
+  </div>
+  <div id="container22">
+    <div class="list-content3"><div class="list-title">食</div></div>
+    <div class="list-content3"><div class="list-title">酒</div></div>
+    <div class="list-content3"><div class="list-title">花</div></div>
+    <div class="list-content2"><div class="list-title">茶</div></div>
+  </div>
+</div>
+<div id="friendlink">
+    <h4>友情链接：</h4>
+    <a href="#">百家国学</a>
+  </div>
+  <div id="footer">
+    <a href="#">About baiza</a> -
+    <a href="#">关于我们</a> -
+    <a href="#">联系我们</a> -
+    <a href="#">网站导航</a> -
+    <a href="#">负责声明</a> -
+    <a href="#">广告服务</a> -
+    <a href="#">站长统计</a><br>
+    百家国学网 版权所有<br>
+    Copyright © 1998 - 2011 baiza. All Rights Reserved<br>
+    兴国学，壮华夏儿女之心智。济圣贤之学于四海，普天下大道，以医病膏之人心。是吾之责，亦尔之任！
+  </div>
+
+ 
+</body>
+</html>
